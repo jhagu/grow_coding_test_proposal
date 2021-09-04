@@ -8,6 +8,7 @@ The goal is retrieve data from [SWAPI](https://swapi.dev/), manipulates and retu
 ### GET /people  
 
 Returns an array with all the SW universe characters
+
 Can receive a query param `sortBy` that accepts `name`, `heigth` or `mass` as values
 
 Example 
