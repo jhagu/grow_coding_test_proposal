@@ -7,7 +7,7 @@ The goal is retrieve data from [SWAPI](https://swapi.dev/), manipulates and retu
 ----------
 
 ## Exposed endpoints
-----------
+
 ### GET /people  
 
 Returns an array with all the SW universe characters
@@ -29,7 +29,7 @@ GET /planets
 ```
 ----------
 ## How to run
-----------
+
 1. Clone the repository
 2. Install the packages
   ```
