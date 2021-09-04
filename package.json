@@ -1,0 +1,22 @@
+{
+  "name": "grow_coding_test",
+  "version": "1.0.0",
+  "description": "Proposal solution for Grow Node Exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha --recursive"
+  },
+  "author": "Juan Agu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "joi": "^14.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "sinon": "^11.1.2"
+  }
+}
