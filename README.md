@@ -1,7 +1,7 @@
 # Grow Coding Test Proposal #
 
 This is the proposal for Grow Coding Test.
-The goal is retrieve data from [SWAPI](https://swapi.dev/), manipulates and returns the data with an Express server.
+The goal is retrieve data from [SWAPI](https://swapi.dev/), manipulates and returns the info through endpoints of an Express server.
 
 ## Exposed endpoints
 
@@ -42,7 +42,7 @@ npm run test
 npm run Start
 ```
 
-5. Go to [People](https://localhost:3000/people) or [Planets](https://localhost:3000/planets) in your browser. In addition, you can use [Postman](https://www.postman.com/) or similar.
+5. Go to [People](https://localhost:3000/people) or [Planets](https://localhost:3000/planets) in your browser to see the results. In addition, you can use [Postman](https://www.postman.com/) or similar to make the request to the server.
 
 
 Have fun!
