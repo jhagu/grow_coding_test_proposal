@@ -39,13 +39,17 @@ GET /planets
 ```
 npm run test
 ```
+4. Run coverage
+```
+npm run coverage
+```
 
-4. Start server
+5. Start server
 ```
 npm run Start
 ```
 
-5. Go to [People](https://localhost:3000/people) or [Planets](https://localhost:3000/planets) in your browser. In addition, you can use [Postman](https://www.postman.com/) or similar.
+6. Go to [People](https://localhost:3000/people) or [Planets](https://localhost:3000/planets) in your browser. In addition, you can use [Postman](https://www.postman.com/) or similar.
 
 
 Have fun!

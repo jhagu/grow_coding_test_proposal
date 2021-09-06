@@ -10,7 +10,7 @@ class SwapiService {
     try {
       let next = `${this._url}/${this._resource}`;
       do {
-        const { data } = await axios.get(next);
+        const data = await this.getByUrl(next);
         collection.push(...data.results);
         next = data.next;
       } while (next)

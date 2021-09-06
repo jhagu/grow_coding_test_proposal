@@ -32,4 +32,26 @@ describe('Swapi Service', async () => {
     const data = await swapiService.getByUrl();
     expect(data).to.be.an('object').to.have.property('name')
   });
+  it('list(), should catch and throw err', async() => {
+    axiosGetStub.throws(new Error('Error fetching data'));
+    try{
+      const swapiService = new SwapiService('people');
+      await swapiService.list();
+    } catch(err){
+        expect(err).to.be.an('error')
+          .to.have.property('message')
+          .to.equal('Error fetching data');
+    }
+  });
+  it('getByUrl(), should catch and throw err', async() => {
+    axiosGetStub.throws(new Error('Error fetching data'));
+    try{
+      const swapiService = new SwapiService('people');
+      await swapiService.getByUrl();
+    } catch(err){
+        expect(err).to.be.an('error')
+          .to.have.property('message')
+          .to.equal('Error fetching data');
+    }
+  });
 })
